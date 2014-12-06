@@ -153,7 +153,7 @@ public class LedBrickTest extends BaseActivityInstrumentationTestCase<ScriptActi
 		solo.sleep(WLAN_DELAY_MS);
 		SensorTestServerConnection.checkLightSensorValue(SensorTestServerConnection.SET_LED_ON_VALUE);
 		solo.sleep(WLAN_DELAY_MS);
-		
+
 
 		Log.d(TAG, "testLedBrick() finished");
 	}
